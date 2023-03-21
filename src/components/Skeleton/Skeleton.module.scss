@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    max-width: 530px;
+    height: 100%;
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+    border-radius: 10px;
+    background: rgba(231, 231, 231, 0.4);
+    color: #303030;
+
+    @media (max-width: 768px) {
+        margin: 0 auto;
+    }
+}
